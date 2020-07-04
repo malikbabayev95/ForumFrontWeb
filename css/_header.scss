@@ -1,0 +1,193 @@
+$home: linear-gradient(rgba(255, 255, 255, 0), rgb(204, 67, 67), rgba(255, 255, 255, 0));
+$home_text: rgb(209, 81, 81);
+$discussion: linear-gradient(rgba(255, 255, 255, 0), rgb(223, 196, 43), rgba(255, 255, 255, 0));
+$discussion_text: rgb(223, 196, 43);
+$actual: linear-gradient(rgba(255, 255, 255, 0), rgb(27, 139, 46), rgba(255, 255, 255, 0));
+$actual_text: rgb(248, 203, 78);
+$user: linear-gradient(rgba(255, 255, 255, 0), rgb(172, 43, 223), rgba(255, 255, 255, 0));
+$user_text: rgb(172, 43, 223);
+$about: linear-gradient(rgba(255, 255, 255, 0), rgb(43, 223, 223), rgba(255, 255, 255, 0));
+$about_text: rgb(43, 223, 223);
+
+#Head {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    .Header {
+        width: 95%;
+        margin: auto auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        .Logo {
+            width: 350px;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .Menu {
+            padding: 0;
+            box-sizing: content-box;
+            height: 134.72px;
+            .SearchBox {
+                height: 60px;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                .SearchIcon {
+                    width: 60px;
+                    height: 60px;
+                    padding: 0;
+                    margin: 0;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    font-size: 40px;
+                    color: rgb(34, 154, 175);
+                    background-color: white;
+                    transform: rotate(90deg);
+                    transition: 0.3s;
+                }
+                .SearchInput {
+                    height: 60px;
+                    border: 3px solid white;
+                    border-color: white;
+                    transition: 0.3s;
+                    transform: translateX(-1px);
+                    input {
+                        height: 100%;
+                        width: 100%;
+                        background-color: transparent;
+                        color: white;
+                        padding: 0 15px;
+                        border: none;
+                        text-transform: lowercase;
+                        letter-spacing: 5px;
+                        font-size: 20px;
+                        text-align: center;
+                        &:focus {
+                            outline: none;
+                        }
+                        &::placeholder {
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .NavMenu {
+                height: 60px;
+                width: 100%;
+                padding: 0;
+                margin: 14.72px 0 0 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .NavUl {
+                    width: 100%;
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    justify-content: space-between;
+                    .NavLi {
+                        border: 1px solid white;
+                        display: block;
+                        padding: 5px;
+                        padding-left: 50px;
+                        position: relative;
+                        transition: 0.3s;
+                        overflow: hidden;
+                        &:hover {
+                            border-radius: 10px;
+                            border-color: rgb(223, 196, 43);
+                            .leftSide {
+                                background-color: rgb(223, 196, 43);
+                            }
+                        }
+                        .leftSide {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            width: 45px;
+                            height: 100%;
+                            background-color: white;
+                            color: rgb(34, 154, 175);
+                            font-size: 25px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transition: 0.3s;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-size: 25px;
+                            font-weight: 500;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+        .Panel {
+            width: 450px;
+            height: 134.72px;
+            border: 3px solid white;
+            display: flex;
+            .UserInput {
+                width: 350px;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                input {
+                    width: 95%;
+                    height: 50px;
+                    background-color: transparent;
+                    border: 2px solid white;
+                    transition: 0.3s;
+                    color: white;
+                    padding: 0 10px;
+                    &::placeholder {
+                        color: white;
+                        letter-spacing: 1px;
+                    }
+                    &:focus {
+                        outline: none;
+                        border-radius: 10px;
+                        border-color: rgb(223, 196, 43);
+                    }
+                }
+            }
+            .Button {
+                width: 100px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .a {
+                    width: 100%;
+                    height: 70px;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #116bbb;
+                    font-size: 70px;
+                    cursor: pointer;
+                    transition:color 0.5s;
+                }
+            }
+        }
+    }
+}

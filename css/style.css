@@ -1,0 +1,1085 @@
+@charset "UTF-8";
+#Head {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Head .Header {
+  width: 95%;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+#Head .Header .Logo {
+  width: 350px;
+}
+
+#Head .Header .Logo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#Head .Header .Menu {
+  padding: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 134.72px;
+}
+
+#Head .Header .Menu .SearchBox {
+  height: 60px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Head .Header .Menu .SearchBox .SearchIcon {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  color: #229aaf;
+  background-color: white;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Head .Header .Menu .SearchBox .SearchInput {
+  height: 60px;
+  border: 3px solid white;
+  border-color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateX(-1px);
+          transform: translateX(-1px);
+}
+
+#Head .Header .Menu .SearchBox .SearchInput input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  padding: 0 15px;
+  border: none;
+  text-transform: lowercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#Head .Header .Menu .SearchBox .SearchInput input:focus {
+  outline: none;
+}
+
+#Head .Header .Menu .SearchBox .SearchInput input::-webkit-input-placeholder {
+  color: white;
+}
+
+#Head .Header .Menu .SearchBox .SearchInput input:-ms-input-placeholder {
+  color: white;
+}
+
+#Head .Header .Menu .SearchBox .SearchInput input::-ms-input-placeholder {
+  color: white;
+}
+
+#Head .Header .Menu .SearchBox .SearchInput input::placeholder {
+  color: white;
+}
+
+#Head .Header .Menu .NavMenu {
+  height: 60px;
+  width: 100%;
+  padding: 0;
+  margin: 14.72px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Head .Header .Menu .NavMenu .NavUl {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Head .Header .Menu .NavMenu .NavUl .NavLi {
+  border: 1px solid white;
+  display: block;
+  padding: 5px;
+  padding-left: 50px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+#Head .Header .Menu .NavMenu .NavUl .NavLi:hover {
+  border-radius: 10px;
+  border-color: #dfc42b;
+}
+
+#Head .Header .Menu .NavMenu .NavUl .NavLi:hover .leftSide {
+  background-color: #dfc42b;
+}
+
+#Head .Header .Menu .NavMenu .NavUl .NavLi .leftSide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 45px;
+  height: 100%;
+  background-color: white;
+  color: #229aaf;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Head .Header .Menu .NavMenu .NavUl .NavLi a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#Head .Header .Panel {
+  width: 450px;
+  height: 134.72px;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Head .Header .Panel .UserInput {
+  width: 350px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#Head .Header .Panel .UserInput input {
+  width: 95%;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  padding: 0 10px;
+}
+
+#Head .Header .Panel .UserInput input::-webkit-input-placeholder {
+  color: white;
+  letter-spacing: 1px;
+}
+
+#Head .Header .Panel .UserInput input:-ms-input-placeholder {
+  color: white;
+  letter-spacing: 1px;
+}
+
+#Head .Header .Panel .UserInput input::-ms-input-placeholder {
+  color: white;
+  letter-spacing: 1px;
+}
+
+#Head .Header .Panel .UserInput input::placeholder {
+  color: white;
+  letter-spacing: 1px;
+}
+
+#Head .Header .Panel .UserInput input:focus {
+  outline: none;
+  border-radius: 10px;
+  border-color: #dfc42b;
+}
+
+#Head .Header .Panel .Button {
+  width: 100px;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Head .Header .Panel .Button .a {
+  width: 100%;
+  height: 70px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #116bbb;
+  font-size: 70px;
+  cursor: pointer;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+#Main {
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px 0;
+}
+
+#Main .PageTitle {
+  width: 95%;
+  padding: 10px 0 0 0;
+  margin: auto;
+  color: #4d4d4d;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#Main .PageTitle span {
+  padding-left: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#Main .MainSection {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 20px 0;
+}
+
+#Main .MainSection .ForumSec {
+  width: 77%;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen {
+  margin-bottom: 20px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header {
+  padding: 0 40px;
+  width: 95%;
+  background: -webkit-gradient(linear, left top, right top, from(#f15f79), to(#b24592));
+  background: linear-gradient(to right, #f15f79 0%, #b24592 100%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-Name,
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-Comment,
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-Info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  color: whitesmoke;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-Name {
+  width: 60%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-Comment {
+  width: 8%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-Info {
+  width: 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-OnOf {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  display: block;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-OnOf .fh-Collapse {
+  position: absolute;
+  width: 16px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-Header .fh-OnOf .fh-Expand {
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .hidden {
+  height: 0;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu {
+  padding: 0 40px;
+  width: 95%;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #e2e2e2;
+  padding: 15px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main {
+  margin: auto;
+  border-radius: 15px;
+  background-color: white;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 81px;
+  border-bottom: 2px solid #f3d7d7;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Title,
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Comment,
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Title {
+  width: 60%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Title .fsm-catType {
+  width: 13%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Title .fsm-catType img {
+  width: 50px;
+  height: 50px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Title .fsm-header {
+  width: 87%;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Title .fsm-header .fsm-catTitle {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Title .fsm-header .fsm-catDesc {
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Comment {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 8%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  color: #858585;
+  letter-spacing: 1px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Info {
+  width: 32%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-left: 5%;
+  font-size: 14px;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Info a {
+  text-decoration: none;
+  color: #be198d;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Info span {
+  font-weight: 600;
+}
+
+#Main .MainSection .ForumSec .Forum-Gen .Forum-SubMenu .fsm-Main .fsm-Category .fsm-Info span.date {
+  font-weight: 100;
+  color: #4d4d4d;
+}
+
+#Main .MainSection .Sidebar {
+  width: 23%;
+}
+
+#Main .MainSection .Sidebar .calendar {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#Main .MainSection .Sidebar .calendar .cln-wd {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#Main .MainSection .Sidebar .calendar .cln-dd {
+  text-align: center;
+  padding: 10px 0;
+  margin: 5px 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #3d3d3d;
+  cursor: pointer;
+}
+
+#Main .MainSection .Sidebar .calendar .cln-month {
+  width: 100%;
+  padding: 0 10px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#39a3c7), to(#00bfff));
+  background-image: linear-gradient(to left, #39a3c7 0%, #00bfff 100%);
+}
+
+#Main .MainSection .Sidebar .calendar .cln-month .month {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+  padding: 0 20px;
+  color: #3d3d3d;
+}
+
+#Main .MainSection .Sidebar .calendar .cln-week {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #b8b8b8;
+}
+
+#Main .MainSection .Sidebar .calendar .cln-day {
+  width: 100%;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  background-color: #e4e4e4;
+}
+
+#Main .MainSection .Sidebar .calendar .cln-day .day-group {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Main .MainSection .Sidebar .hello {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#Main .MainSection .Sidebar .hello .helloHead {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  background-image: -webkit-gradient(linear, right top, left top, from(#adc739), to(#ffc400));
+  background-image: linear-gradient(to left, #adc739 0%, #ffc400 100%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#Main .MainSection .Sidebar .hello .helloDesc {
+  background-color: #e4e4e4;
+  padding: 10px 5px;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+#Main .MainSection .Sidebar .top-comment {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmmHead {
+  height: 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  background-image: -webkit-gradient(linear, right top, left top, from(#c77239), to(#ffc400));
+  background-image: linear-gradient(to left, #c77239 0%, #ffc400 100%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main {
+  width: 100%;
+  background-color: #e4e4e4;
+  padding: 10px 5px;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #8f8e8e;
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top:hover {
+  background-color: #bdbdbd;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top::after {
+  content: "Ən çox baxılan";
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #524375;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: #bdbdbd;
+  border-bottom: 1px solid #8f8e8e;
+  top: -30px;
+  border-radius: 5px 5px 0 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top:nth-child(2)::after {
+  content: 'Ən çox oxunan';
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top:nth-child(3)::after {
+  content: 'Ən baxımlı';
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top:nth-child(4)::after {
+  content: 'Ən çox öyrədən';
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top:nth-child(5)::after {
+  content: 'Ən çox öyrənən';
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-right: 1px solid #8f8e8e;
+  padding: 5px;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 0 10px;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-first, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-second, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-third {
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-first .tp-icon, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-second .tp-icon, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-third .tp-icon {
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-first .tp-icon .tp-icon-item, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-second .tp-icon .tp-icon-item, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-third .tp-icon .tp-icon-item {
+  width: 10px;
+  height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-first .tp-icon .tp-icon-item img, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-second .tp-icon .tp-icon-item img, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-third .tp-icon .tp-icon-item img {
+  width: 100%;
+  height: 100%;
+}
+
+#Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-first .tp-info, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-second .tp-info, #Main .MainSection .Sidebar .top-comment .cmm-main .main-top .mt-info .top-third .tp-info {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 0 10px;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock-digital {
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#79c739), to(#2fad60));
+  background-image: linear-gradient(to right, #79c739 0%, #2fad60 100%);
+}
+
+#Main .MainSection .Sidebar .clock-main .clock-digital span {
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 430px;
+  background-color: #e4e4e4;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog {
+  width: 350px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../img/icon/clock.png");
+  background-size: cover;
+  border: 4px solid #e4e4e4;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05), inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.05), inset 0 15px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05), inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.05), inset 0 15px 15px rgba(0, 0, 0, 0.05);
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #4b4b4b;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second {
+  position: absolute;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .hr, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .hr, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .hr {
+  width: 160px;
+  height: 160px;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .hr::before, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .hr::before, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .hr::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 80px;
+  background: #ff8f10;
+  z-index: 9;
+  border-radius: 6px 6px 0 0;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .mn, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .mn, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .mn {
+  width: 190px;
+  height: 190px;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .mn::before, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .mn::before, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .mn::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 90px;
+  background: #ff8f10;
+  z-index: 9;
+  border-radius: 6px 6px 0 0;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .sc, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .sc, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .sc {
+  width: 230px;
+  height: 230px;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .sc::before, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .sc::before, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .sc::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 150px;
+  background: #10bbff;
+  z-index: 9;
+  border-radius: 6px 6px 0 0;
+}
+
+#Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .hr, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .mn, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .hour .sc, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .hr, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .mn, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .minute .sc, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .hr, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .mn, #Main .MainSection .Sidebar .clock-main .clock .clock-analog .second .sc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+#Foot .social {
+  width: 45%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Foot .social .socialItem {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#Foot .social .socialItem:hover {
+  color: black;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+#Foot .social .socialItem:nth-child(1):hover {
+  background-color: #cc4343;
+}
+
+#Foot .social .socialItem:nth-child(2):hover {
+  background-color: #dfc42b;
+}
+
+#Foot .social .socialItem:nth-child(3):hover {
+  background-color: #2bdf49;
+}
+
+#Foot .social .socialItem:nth-child(4):hover {
+  background-color: #ac2bdf;
+}
+
+#Foot .social .socialItem:nth-child(5):hover {
+  background-color: #2b6adf;
+}
+
+#Foot .social .socialItem:nth-child(6):hover {
+  background-color: #2bdfdf;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#3e9e96), to(#0f69bd));
+  background-image: linear-gradient(to right, #3e9e96, #0f69bd);
+}
+/*# sourceMappingURL=style.css.map */
